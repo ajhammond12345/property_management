@@ -1,0 +1,6 @@
+framework module Pods_PropertyManagement {
+  umbrella header "Pods-PropertyManagement-umbrella.h"
+
+  export *
+  module * { export * }
+}
