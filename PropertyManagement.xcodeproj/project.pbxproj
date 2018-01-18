@@ -15,6 +15,10 @@
 		70B1AABD20083FD200D6EB8A /* PropertyManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1AABC20083FD200D6EB8A /* PropertyManagementTests.swift */; };
 		70B1AAC820083FD200D6EB8A /* PropertyManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1AAC720083FD200D6EB8A /* PropertyManagementUITests.swift */; };
 		E61305D1200842980004CE11 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61305D0200842980004CE11 /* LoginViewController.swift */; };
+		E6EE1D562011189A00C98B51 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE1D552011189A00C98B51 /* SignUpViewController.swift */; };
+		E6EE1D5820111A2C00C98B51 /* RenterWithoutPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE1D5720111A2C00C98B51 /* RenterWithoutPropertyViewController.swift */; };
+		E6EE1D5A20111B3E00C98B51 /* RenterWithPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE1D5920111B3E00C98B51 /* RenterWithPropertyViewController.swift */; };
+		E6EE1D5C20111BE100C98B51 /* ManagerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE1D5B20111BE100C98B51 /* ManagerHomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		70B1AAC720083FD200D6EB8A /* PropertyManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyManagementUITests.swift; sourceTree = "<group>"; };
 		70B1AAC920083FD200D6EB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E61305D0200842980004CE11 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E6EE1D552011189A00C98B51 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E6EE1D5720111A2C00C98B51 /* RenterWithoutPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenterWithoutPropertyViewController.swift; sourceTree = "<group>"; };
+		E6EE1D5920111B3E00C98B51 /* RenterWithPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenterWithPropertyViewController.swift; sourceTree = "<group>"; };
+		E6EE1D5B20111BE100C98B51 /* ManagerHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerHomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				797576447CC05BB67519E2AF /* Pods_PropertyManagement.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +73,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CAE5AEFAD6DBA2507A3AB00C /* Pods_PropertyManagementTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,7 +80,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C5ABFBFE8480B5429A5BE639 /* Pods_PropertyManagementUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,11 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				13AD210455FD097B5CC00C2B /* Pods-PropertyManagement.debug.xcconfig */,
-				83249F72453DF70158B67E13 /* Pods-PropertyManagement.release.xcconfig */,
-				A72DE10D64A717E6E4BA895B /* Pods-PropertyManagementTests.debug.xcconfig */,
-				A0B6BB08A5E4E02FC5B857DB /* Pods-PropertyManagementTests.release.xcconfig */,
-				9D1E999DB0D1A97C729DC08F /* Pods-PropertyManagementUITests.debug.xcconfig */,
-				94BBB2CBE473D62E23F14D51 /* Pods-PropertyManagementUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -97,8 +97,6 @@
 		5EDC3A7E58E0836C5A04C5FA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DE411E4BC6E67DFB1066AF9C /* Pods_PropertyManagement.framework */,
-				90DCA31B4A8EDB9E423725BC /* Pods_PropertyManagementTests.framework */,
 				2F9025E7293424C9361E60A9 /* Pods_PropertyManagementUITests.framework */,
 			);
 			name = Frameworks;
@@ -129,11 +127,14 @@
 		70B1AAA620083FD100D6EB8A /* PropertyManagement */ = {
 			isa = PBXGroup;
 			children = (
-				AD7F3B6D2008450B00D48547 /* GoogleService-Info.plist */,
 				70B1AAA720083FD100D6EB8A /* AppDelegate.swift */,
 				70B1AAA920083FD100D6EB8A /* ViewController.swift */,
 				E61305D0200842980004CE11 /* LoginViewController.swift */,
+				E6EE1D5720111A2C00C98B51 /* RenterWithoutPropertyViewController.swift */,
+				E6EE1D552011189A00C98B51 /* SignUpViewController.swift */,
 				70B1AAAB20083FD100D6EB8A /* Main.storyboard */,
+				E6EE1D5B20111BE100C98B51 /* ManagerHomeViewController.swift */,
+				E6EE1D5920111B3E00C98B51 /* RenterWithPropertyViewController.swift */,
 				70B1AAAE20083FD100D6EB8A /* Assets.xcassets */,
 				70B1AAB020083FD100D6EB8A /* LaunchScreen.storyboard */,
 				70B1AAB320083FD100D6EB8A /* Info.plist */,
@@ -276,7 +277,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				70B1AAB220083FD100D6EB8A /* LaunchScreen.storyboard in Resources */,
-				AD7F3B6E2008450B00D48547 /* GoogleService-Info.plist in Resources */,
 				70B1AAAF20083FD100D6EB8A /* Assets.xcassets in Resources */,
 				70B1AAAD20083FD100D6EB8A /* Main.storyboard in Resources */,
 			);
@@ -457,7 +457,11 @@
 			files = (
 				E61305D1200842980004CE11 /* LoginViewController.swift in Sources */,
 				70B1AAAA20083FD100D6EB8A /* ViewController.swift in Sources */,
+				E6EE1D562011189A00C98B51 /* SignUpViewController.swift in Sources */,
+				E6EE1D5C20111BE100C98B51 /* ManagerHomeViewController.swift in Sources */,
+				E6EE1D5820111A2C00C98B51 /* RenterWithoutPropertyViewController.swift in Sources */,
 				70B1AAA820083FD100D6EB8A /* AppDelegate.swift in Sources */,
+				E6EE1D5A20111B3E00C98B51 /* RenterWithPropertyViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,7 +629,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4PMGW9ETMV;
+				DEVELOPMENT_TEAM = 64DQXMX2WA;
 				INFOPLIST_FILE = PropertyManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RAA.PropertyManagement;
@@ -637,11 +641,10 @@
 		};
 		70B1AACE20083FD200D6EB8A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 83249F72453DF70158B67E13 /* Pods-PropertyManagement.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4PMGW9ETMV;
+				DEVELOPMENT_TEAM = 64DQXMX2WA;
 				INFOPLIST_FILE = PropertyManagement/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RAA.PropertyManagement;
@@ -653,7 +656,6 @@
 		};
 		70B1AAD020083FD200D6EB8A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A72DE10D64A717E6E4BA895B /* Pods-PropertyManagementTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -671,7 +673,6 @@
 		};
 		70B1AAD120083FD200D6EB8A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0B6BB08A5E4E02FC5B857DB /* Pods-PropertyManagementTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -689,7 +690,6 @@
 		};
 		70B1AAD320083FD200D6EB8A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D1E999DB0D1A97C729DC08F /* Pods-PropertyManagementUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -706,7 +706,6 @@
 		};
 		70B1AAD420083FD200D6EB8A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 94BBB2CBE473D62E23F14D51 /* Pods-PropertyManagementUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,32 +1,31 @@
 //
-//  LoginViewController.swift
+//  ManagerHomeViewController.swift
 //  PropertyManagement
 //
-//  Created by Abhinav Tirath on 1/11/18.
+//  Created by Abhinav Tirath on 1/18/18.
 //  Copyright © 2018 RAA. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class ManagerHomeViewController: UIViewController {
 
-        
-    @IBOutlet weak var nameField: UITextField!
-    @IBOutlet weak var emailField: UITextField!
-    @IBOutlet weak var submitLogIn: UIButton!
-    @IBOutlet weak var createAccount: UIButton!
-    
+    @IBOutlet weak var propertyCell: UITableViewCell!
+    @IBOutlet weak var propertiesTableView: UITableView!
+    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var propertyImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
+
     /*
     // MARK: - Navigation
 

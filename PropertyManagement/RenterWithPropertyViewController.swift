@@ -1,24 +1,22 @@
 //
-//  LoginViewController.swift
+//  RenterWithPropertyViewController.swift
 //  PropertyManagement
 //
-//  Created by Abhinav Tirath on 1/11/18.
+//  Created by Abhinav Tirath on 1/18/18.
 //  Copyright © 2018 RAA. All rights reserved.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
+class RenterWithPropertyViewController: UIViewController {
 
-        
-    @IBOutlet weak var nameField: UITextField!
-    @IBOutlet weak var emailField: UITextField!
-    @IBOutlet weak var submitLogIn: UIButton!
-    @IBOutlet weak var createAccount: UIButton!
-    
+    @IBOutlet weak var propertyImage: UIImageView!
+    @IBOutlet weak var payButton: UIButton!
+    @IBOutlet weak var paidThrough: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
         // Do any additional setup after loading the view.
     }
     
@@ -27,6 +25,7 @@ class LoginViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+
     /*
     // MARK: - Navigation
 
