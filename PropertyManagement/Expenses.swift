@@ -1,19 +1,20 @@
 //
-//  ManagerHomeViewController.swift
+//  ExpensesViewController.swift
 //  PropertyManagement
 //
-//  Created by Abhinav Tirath on 1/18/18.
+//  Created by Abhinav Tirath on 1/22/18.
 //  Copyright © 2018 RAA. All rights reserved.
 //
 
 import UIKit
 
-class ManagerHomeViewController: UIViewController {
+class Expenses: UIViewController {
 
-    @IBOutlet weak var propertyCell: UITableViewCell!
-    @IBOutlet weak var propertiesTableView: UITableView!
-    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var propertyAddress: UILabel!
     @IBOutlet weak var propertyImage: UIImageView!
+    @IBOutlet weak var expensesAmount: UILabel!
+    @IBOutlet weak var expensesNotes: UILabel!
+    @IBOutlet weak var expensesTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

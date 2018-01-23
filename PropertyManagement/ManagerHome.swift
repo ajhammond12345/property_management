@@ -1,5 +1,5 @@
 //
-//  RenterWithoutPropertyViewController.swift
+//  ManagerHomeViewController.swift
 //  PropertyManagement
 //
 //  Created by Abhinav Tirath on 1/18/18.
@@ -8,9 +8,12 @@
 
 import UIKit
 
-class RenterWithoutPropertyViewController: UIViewController {
+class ManagerHome: UIViewController {
 
-    @IBOutlet weak var propertyCodeField: UITextField!
+    @IBOutlet weak var propertyCell: UITableViewCell!
+    @IBOutlet weak var propertiesTableView: UITableView!
+    @IBOutlet weak var addressLabel: UILabel!
+    @IBOutlet weak var propertyImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
