@@ -1,25 +1,24 @@
 //
-//  RenterWithPropertyViewController.swift
+//  NotificationsViewController.swift
 //  PropertyManagement
 //
-//  Created by Abhinav Tirath on 1/18/18.
+//  Created by Abhinav Tirath on 1/22/18.
 //  Copyright © 2018 RAA. All rights reserved.
 //
 
 import UIKit
 
-class RenterWithPropertyViewController: UIViewController {
+class Notifications: UIViewController {
 
-    @IBOutlet weak var propertyImage: UIImageView!
-    @IBOutlet weak var payButton: UIButton!
-    @IBOutlet weak var paidThrough: UILabel!
-
+    @IBOutlet weak var notificationInfo: UILabel!
+    @IBOutlet weak var notificationTitle: UILabel!
+    @IBOutlet weak var notificationTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
