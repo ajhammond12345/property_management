@@ -27,11 +27,11 @@ class SignUp: UIViewController {
     var isPropertyManager: Bool = false
     
     @IBAction func signUpAttempted(_ sender: Any) {
-        //check if sing up succeeded in meetin requirements and has been authenticated by FireBase:
+        //TODO: check if sing up succeeded in meetin requirements and has been authenticated by FireBase:
         let loginSuccess: Bool = true
         
         if (!loginSuccess) {
-            //notify user that sign up failed and don't segue
+            //TODO: notify user that sign up failed and don't segue
         } else {
             userName = nameField.text!
             userEmail = emailField.text!
@@ -43,7 +43,8 @@ class SignUp: UIViewController {
                 isPropertyManager = false
             }
             
-            //segue
+            //TODO: segue
+            //TODO: integrate segue
         }
     }
     

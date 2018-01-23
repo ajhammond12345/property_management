@@ -16,6 +16,41 @@ class Login: UIViewController {
     @IBOutlet weak var submitLogIn: UIButton!
     @IBOutlet weak var createAccount: UIButton!
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+       
+        if (segue.identifier?.elementsEqual("toManagerHome"))! {
+            //TODO: Prep for manager
+        }
+        
+        if (segue.identifier?.elementsEqual("toRenterWithHome"))! {
+            //TODO: Prep for Renter With Home
+        }
+        
+        if (segue.identifier?.elementsEqual("toRenterWithoutHome"))! {
+            //TODO: Prep for Renter Without Home
+        }
+    }
+    
+    @IBAction func signInPressed(sender: Any?) {
+        verifyUser()
+        if (true /*TODO: check for manager*/) {
+            self.performSegue(withIdentifier: "toManagerHome", sender: <#T##Any?#>)
+        } else if (true /*TODO: check for manager*/) {
+            self.performSegue(withIdentifier: "toRenterWithHome", sender: <#T##Any?#>)
+        } else if (true /*TODO: check for manager*/) {
+            self.performSegue(withIdentifier: "toRenterWithoutHome", sender: <#T##Any?#>)
+        } else {
+            //TODO: throw pop up error
+        }
+ 
+    }
+    
+    func verifyUser() -> Bool {
+        //TODO: verify user
+        return true
+    }
+        
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

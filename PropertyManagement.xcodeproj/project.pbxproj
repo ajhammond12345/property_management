@@ -140,10 +140,10 @@
 				70B1AAA720083FD100D6EB8A /* AppDelegate.swift */,
 				70B1AAA920083FD100D6EB8A /* ViewController.swift */,
 				E61305D0200842980004CE11 /* Login.swift */,
+				E6EE1D552011189A00C98B51 /* SignUp.swift */,
 				E6EE1D5B20111BE100C98B51 /* ManagerHome.swift */,
 				E6EE1D5720111A2C00C98B51 /* RenterWithoutProperty.swift */,
 				E6EE1D5920111B3E00C98B51 /* RenterWithProperty.swift */,
-				E6EE1D552011189A00C98B51 /* SignUp.swift */,
 				70B1AAAB20083FD100D6EB8A /* Main.storyboard */,
 				E627F95C2016CB0100B2124A /* Expenses.swift */,
 				E627F95E2016CB0C00B2124A /* Contracts.swift */,
@@ -651,9 +651,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4PMGW9ETMV;
 				INFOPLIST_FILE = PropertyManagement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RAA.PropertyManagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -666,9 +668,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4PMGW9ETMV;
 				INFOPLIST_FILE = PropertyManagement/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = RAA.PropertyManagement;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
