@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		700E39C82017A5E100643E2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 700E39C72017A5E100643E2C /* GoogleService-Info.plist */; };
 		70B1AAA820083FD100D6EB8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1AAA720083FD100D6EB8A /* AppDelegate.swift */; };
 		70B1AAAA20083FD100D6EB8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1AAA920083FD100D6EB8A /* ViewController.swift */; };
 		70B1AAAD20083FD100D6EB8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B1AAAB20083FD100D6EB8A /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		13AD210455FD097B5CC00C2B /* Pods-PropertyManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropertyManagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PropertyManagement/Pods-PropertyManagement.debug.xcconfig"; sourceTree = "<group>"; };
 		2F9025E7293424C9361E60A9 /* Pods_PropertyManagementUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PropertyManagementUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		700E39C72017A5E100643E2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		70B1AAA420083FD100D6EB8A /* PropertyManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B1AAA720083FD100D6EB8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70B1AAA920083FD100D6EB8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				E6EE1D5920111B3E00C98B51 /* RenterWithPropertyViewController.swift */,
 				70B1AAAE20083FD100D6EB8A /* Assets.xcassets */,
 				70B1AAB020083FD100D6EB8A /* LaunchScreen.storyboard */,
+				700E39C72017A5E100643E2C /* GoogleService-Info.plist */,
 				70B1AAB320083FD100D6EB8A /* Info.plist */,
 			);
 			path = PropertyManagement;
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				70B1AAB220083FD100D6EB8A /* LaunchScreen.storyboard in Resources */,
+				700E39C82017A5E100643E2C /* GoogleService-Info.plist in Resources */,
 				70B1AAAF20083FD100D6EB8A /* Assets.xcassets in Resources */,
 				70B1AAAD20083FD100D6EB8A /* Main.storyboard in Resources */,
 			);
