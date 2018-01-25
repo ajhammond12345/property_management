@@ -20,17 +20,27 @@ class SignUp: UIViewController {
     @IBOutlet weak var signUp: UIButton!
     @IBOutlet weak var userTypeSelected: UISegmentedControl!
     
-    var userName: String = ""
-    var userEmail: String = ""
-    var userPhone: String = ""
-    var userPassword: String = ""
+    var userName: String?
+    var userEmail: String?
+    var userPhone: String?
+    var userPassword: String?
     var isPropertyManager: Bool = false
     
     @IBAction func signUpAttempted(_ sender: Any) {
-        //TODO: check if sing up succeeded in meetin requirements and has been authenticated by FireBase:
-        let loginSuccess: Bool = true
+        //TODO: check if sign up succeeded in meeting requirements and has been authenticated by FireBase:
         
-        if (!loginSuccess) {
+        let fields = [nameField.text, emailField.text, phoneField.text, passwordField.text]
+        var signUpSuccess: Bool = true
+        for field in fields {
+            if (field == nil) {
+                signUpSuccess = false
+                //TODO: Tell users which fields are empty
+            }
+            //Authenticate with FireBase:
+        }
+        
+        
+        if (!signUpSuccess) {
             //TODO: notify user that sign up failed and don't segue
         } else {
             userName = nameField.text!

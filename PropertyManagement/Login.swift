@@ -32,12 +32,13 @@ class Login: UIViewController {
     }
     
     @IBAction func signInPressed(sender: Any?) {
+        
         verifyUser()
         if (true /*TODO: check for manager*/) {
             self.performSegue(withIdentifier: "toManagerHome", sender: <#T##Any?#>)
-        } else if (true /*TODO: check for manager*/) {
+        } else if (true /*TODO: check for renter with home*/) {
             self.performSegue(withIdentifier: "toRenterWithHome", sender: <#T##Any?#>)
-        } else if (true /*TODO: check for manager*/) {
+        } else if (true /*TODO: check for renter without home*/) {
             self.performSegue(withIdentifier: "toRenterWithoutHome", sender: <#T##Any?#>)
         } else {
             //TODO: throw pop up error
@@ -46,8 +47,16 @@ class Login: UIViewController {
     }
     
     func verifyUser() -> Bool {
-        //TODO: verify user
-        return true
+        let fields = [nameField.text, emailField.text]
+        var loginSuccess: Bool = true
+        for field in fields {
+            if (field == nil) {
+                loginSuccess = false
+                //TODO: Tell users which fields are empty
+            }
+            //Check with FireBase:
+        }
+        return loginSuccess
     }
         
     
