@@ -10,10 +10,6 @@ import UIKit
 
 class Contracts: UIViewController {
 
-    @IBOutlet weak var propertyAddress: UILabel!
-    @IBOutlet weak var propertyImage: UIImageView!
-    @IBOutlet weak var contractDates: UILabel!
-    @IBOutlet weak var contractNotes: UILabel!
     @IBOutlet weak var expensesTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()

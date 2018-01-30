@@ -10,10 +10,6 @@ import UIKit
 
 class Expenses: UIViewController {
 
-    @IBOutlet weak var propertyAddress: UILabel!
-    @IBOutlet weak var propertyImage: UIImageView!
-    @IBOutlet weak var expensesAmount: UILabel!
-    @IBOutlet weak var expensesNotes: UILabel!
     @IBOutlet weak var expensesTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()

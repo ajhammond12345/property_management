@@ -31,15 +31,15 @@ class Login: UIViewController {
         }
     }
     
-    @IBAction func signInPressed(sender: Any?) {
+    @IBAction func signInPressed(sender: UIButton) {
         
         verifyUser()
         if (true /*TODO: check for manager*/) {
-            self.performSegue(withIdentifier: "toManagerHome", sender: <#T##Any?#>)
+            self.performSegue(withIdentifier: "toManagerHome", sender: sender)
         } else if (true /*TODO: check for renter with home*/) {
-            self.performSegue(withIdentifier: "toRenterWithHome", sender: <#T##Any?#>)
+            self.performSegue(withIdentifier: "toRenterWithHome", sender: sender)
         } else if (true /*TODO: check for renter without home*/) {
-            self.performSegue(withIdentifier: "toRenterWithoutHome", sender: <#T##Any?#>)
+            self.performSegue(withIdentifier: "toRenterWithoutHome", sender: sender)
         } else {
             //TODO: throw pop up error
         }
@@ -54,7 +54,7 @@ class Login: UIViewController {
                 loginSuccess = false
                 //TODO: Tell users which fields are empty
             }
-            //Check with FireBase:
+            //TODO: Check with FireBase:
         }
         return loginSuccess
     }

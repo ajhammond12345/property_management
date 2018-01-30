@@ -36,7 +36,7 @@ class SignUp: UIViewController {
                 signUpSuccess = false
                 //TODO: Tell users which fields are empty
             }
-            //Authenticate with FireBase:
+            //TODO: Authenticate with FireBase:
         }
         
         

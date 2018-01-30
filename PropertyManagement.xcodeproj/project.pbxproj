@@ -16,6 +16,11 @@
 		70B1AABD20083FD200D6EB8A /* PropertyManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1AABC20083FD200D6EB8A /* PropertyManagementTests.swift */; };
 		70B1AAC820083FD200D6EB8A /* PropertyManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1AAC720083FD200D6EB8A /* PropertyManagementUITests.swift */; };
 		E61305D1200842980004CE11 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61305D0200842980004CE11 /* Login.swift */; };
+		E61B8E022020EAEE00A48EB4 /* PropertyViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B8E012020EAEE00A48EB4 /* PropertyViewCell.swift */; };
+		E61B8E042020EDCC00A48EB4 /* NotificationViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B8E032020EDCC00A48EB4 /* NotificationViewCell.swift */; };
+		E61B8E062020EE4D00A48EB4 /* ExpensesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B8E052020EE4D00A48EB4 /* ExpensesViewCell.swift */; };
+		E61B8E082020EE5800A48EB4 /* ContractsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B8E072020EE5800A48EB4 /* ContractsViewCell.swift */; };
+		E61B8E0A2020EE6D00A48EB4 /* SettingsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B8E092020EE6D00A48EB4 /* SettingsViewCell.swift */; };
 		E627F95B2016CAF300B2124A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F95A2016CAF300B2124A /* Notifications.swift */; };
 		E627F95D2016CB0100B2124A /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F95C2016CB0100B2124A /* Expenses.swift */; };
 		E627F95F2016CB0C00B2124A /* Contracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F95E2016CB0C00B2124A /* Contracts.swift */; };
@@ -61,6 +66,11 @@
 		70B1AAC720083FD200D6EB8A /* PropertyManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyManagementUITests.swift; sourceTree = "<group>"; };
 		70B1AAC920083FD200D6EB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E61305D0200842980004CE11 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		E61B8E012020EAEE00A48EB4 /* PropertyViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewCell.swift; sourceTree = "<group>"; };
+		E61B8E032020EDCC00A48EB4 /* NotificationViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewCell.swift; sourceTree = "<group>"; };
+		E61B8E052020EE4D00A48EB4 /* ExpensesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewCell.swift; sourceTree = "<group>"; };
+		E61B8E072020EE5800A48EB4 /* ContractsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractsViewCell.swift; sourceTree = "<group>"; };
+		E61B8E092020EE6D00A48EB4 /* SettingsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewCell.swift; sourceTree = "<group>"; };
 		E627F95A2016CAF300B2124A /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		E627F95C2016CB0100B2124A /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		E627F95E2016CB0C00B2124A /* Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contracts.swift; sourceTree = "<group>"; };
@@ -145,7 +155,12 @@
 				E6EE1D5720111A2C00C98B51 /* RenterWithoutProperty.swift */,
 				E6EE1D5920111B3E00C98B51 /* RenterWithProperty.swift */,
 				70B1AAAB20083FD100D6EB8A /* Main.storyboard */,
+				E61B8E052020EE4D00A48EB4 /* ExpensesViewCell.swift */,
+				E61B8E072020EE5800A48EB4 /* ContractsViewCell.swift */,
+				E61B8E092020EE6D00A48EB4 /* SettingsViewCell.swift */,
 				E627F95C2016CB0100B2124A /* Expenses.swift */,
+				E61B8E012020EAEE00A48EB4 /* PropertyViewCell.swift */,
+				E61B8E032020EDCC00A48EB4 /* NotificationViewCell.swift */,
 				E627F95E2016CB0C00B2124A /* Contracts.swift */,
 				E627F9602016CB1300B2124A /* Settings.swift */,
 				E627F95A2016CAF300B2124A /* Notifications.swift */,
@@ -472,14 +487,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E61305D1200842980004CE11 /* Login.swift in Sources */,
+				E61B8E042020EDCC00A48EB4 /* NotificationViewCell.swift in Sources */,
 				70B1AAAA20083FD100D6EB8A /* ViewController.swift in Sources */,
 				E627F9612016CB1300B2124A /* Settings.swift in Sources */,
+				E61B8E082020EE5800A48EB4 /* ContractsViewCell.swift in Sources */,
 				E6EE1D562011189A00C98B51 /* SignUp.swift in Sources */,
 				E6EE1D5C20111BE100C98B51 /* ManagerHome.swift in Sources */,
+				E61B8E022020EAEE00A48EB4 /* PropertyViewCell.swift in Sources */,
 				E6EE1D5820111A2C00C98B51 /* RenterWithoutProperty.swift in Sources */,
 				70B1AAA820083FD100D6EB8A /* AppDelegate.swift in Sources */,
+				E61B8E062020EE4D00A48EB4 /* ExpensesViewCell.swift in Sources */,
 				E627F95F2016CB0C00B2124A /* Contracts.swift in Sources */,
 				E6EE1D5A20111B3E00C98B51 /* RenterWithProperty.swift in Sources */,
+				E61B8E0A2020EE6D00A48EB4 /* SettingsViewCell.swift in Sources */,
 				E627F95B2016CAF300B2124A /* Notifications.swift in Sources */,
 				E627F95D2016CB0100B2124A /* Expenses.swift in Sources */,
 			);

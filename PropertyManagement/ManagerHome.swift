@@ -10,10 +10,8 @@ import UIKit
 
 class ManagerHome: UIViewController {
 
-    @IBOutlet weak var propertyCell: UITableViewCell!
     @IBOutlet weak var propertiesTableView: UITableView!
-    @IBOutlet weak var addressLabel: UILabel!
-    @IBOutlet weak var propertyImage: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
