@@ -146,7 +146,7 @@
                     <tabBarItem key="tabBarItem" title="Home" id="E2H-Ec-jEI"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
-                        <outlet property="propertiesTableView" destination="slA-Uu-vco" id="zkj-0i-QS1"/>
+                        <outlet property="propertiesTableView" destination="slA-Uu-vco" id="Csc-98-yfR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ooh-2G-YPz" userLabel="First Responder" sceneMemberID="firstResponder"/>
