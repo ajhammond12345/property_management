@@ -560,7 +560,6 @@
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
                     <connections>
                         <outlet property="contractsTable" destination="bTp-nY-ePx" id="Sw6-3J-rfL"/>
-                        <segue destination="lPc-7y-q8k" kind="show" id="wJ3-2N-5V9"/>
                         <segue destination="Skd-dp-73Q" kind="show" id="xhw-C7-Meo"/>
                     </connections>
                 </viewController>
@@ -873,7 +872,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="seW-nC-ZJh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3702" y="3188"/>
+            <point key="canvasLocation" x="-1223" y="3300"/>
         </scene>
         <!--Notification-->
         <scene sceneID="HcG-ot-Y23">

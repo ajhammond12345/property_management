@@ -33,17 +33,18 @@ class Login: UIViewController {
     
     @IBAction func signInPressed(sender: UIButton) {
         
-        verifyUser()
-        if (true /*TODO: check for manager*/) {
-            self.performSegue(withIdentifier: "toManagerHome", sender: sender)
-        } else if (true /*TODO: check for renter with home*/) {
-            self.performSegue(withIdentifier: "toRenterWithHome", sender: sender)
-        } else if (true /*TODO: check for renter without home*/) {
-            self.performSegue(withIdentifier: "toRenterWithoutHome", sender: sender)
-        } else {
-            //TODO: throw pop up error
+        let verified = verifyUser()
+        if (verified) {
+            if (true /*TODO: check for manager*/) {
+                self.performSegue(withIdentifier: "toManagerHome", sender: sender)
+            } else if (!verified /*TODO: check for renter with home*/) {
+                self.performSegue(withIdentifier: "toRenterWithHome", sender: sender)
+            } else if (true /*TODO: check for renter without home*/) {
+                self.performSegue(withIdentifier: "toRenterWithoutHome", sender: sender)
+            } else {
+                //TODO: throw pop up error
+            }
         }
- 
     }
     
     func verifyUser() -> Bool {
