@@ -25,6 +25,7 @@
 		E627F95D2016CB0100B2124A /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F95C2016CB0100B2124A /* Expenses.swift */; };
 		E627F95F2016CB0C00B2124A /* Contracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F95E2016CB0C00B2124A /* Contracts.swift */; };
 		E627F9612016CB1300B2124A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F9602016CB1300B2124A /* Settings.swift */; };
+		E6BC460E203C6BBC00F21D77 /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BC460D203C6BBC00F21D77 /* Contract.swift */; };
 		E6EE1D562011189A00C98B51 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE1D552011189A00C98B51 /* SignUp.swift */; };
 		E6EE1D5820111A2C00C98B51 /* RenterWithoutProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE1D5720111A2C00C98B51 /* RenterWithoutProperty.swift */; };
 		E6EE1D5A20111B3E00C98B51 /* RenterWithProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE1D5920111B3E00C98B51 /* RenterWithProperty.swift */; };
@@ -75,6 +76,7 @@
 		E627F95C2016CB0100B2124A /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
 		E627F95E2016CB0C00B2124A /* Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contracts.swift; sourceTree = "<group>"; };
 		E627F9602016CB1300B2124A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		E6BC460D203C6BBC00F21D77 /* Contract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
 		E6EE1D552011189A00C98B51 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		E6EE1D5720111A2C00C98B51 /* RenterWithoutProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenterWithoutProperty.swift; sourceTree = "<group>"; };
 		E6EE1D5920111B3E00C98B51 /* RenterWithProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenterWithProperty.swift; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				E6EE1D5720111A2C00C98B51 /* RenterWithoutProperty.swift */,
 				E6EE1D5920111B3E00C98B51 /* RenterWithProperty.swift */,
 				70B1AAAB20083FD100D6EB8A /* Main.storyboard */,
+				E6BC460D203C6BBC00F21D77 /* Contract.swift */,
 				E61B8E052020EE4D00A48EB4 /* ExpensesViewCell.swift */,
 				E61B8E072020EE5800A48EB4 /* ContractsViewCell.swift */,
 				E61B8E092020EE6D00A48EB4 /* SettingsViewCell.swift */,
@@ -499,6 +502,7 @@
 				E61B8E062020EE4D00A48EB4 /* ExpensesViewCell.swift in Sources */,
 				E627F95F2016CB0C00B2124A /* Contracts.swift in Sources */,
 				E6EE1D5A20111B3E00C98B51 /* RenterWithProperty.swift in Sources */,
+				E6BC460E203C6BBC00F21D77 /* Contract.swift in Sources */,
 				E61B8E0A2020EE6D00A48EB4 /* SettingsViewCell.swift in Sources */,
 				E627F95B2016CAF300B2124A /* Notifications.swift in Sources */,
 				E627F95D2016CB0100B2124A /* Expenses.swift in Sources */,

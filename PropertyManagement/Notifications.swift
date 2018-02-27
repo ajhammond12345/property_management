@@ -10,7 +10,6 @@ import UIKit
 
 class Notifications: UIViewController {
 
-    @IBOutlet weak var notificationCell: UITableViewCell!
     @IBOutlet weak var notificationTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
