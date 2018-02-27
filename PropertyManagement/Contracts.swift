@@ -10,7 +10,7 @@ import UIKit
 
 class Contracts: UIViewController {
 
-    @IBOutlet weak var expensesTable: UITableView!
+    @IBOutlet weak var contractsTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
