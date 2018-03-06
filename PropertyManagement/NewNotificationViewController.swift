@@ -1,17 +1,15 @@
 //
-//  NotificationsViewController.swift
+//  NewNotificationViewController.swift
 //  PropertyManagement
 //
-//  Created by Abhinav Tirath on 1/22/18.
+//  Created by Alexander Hammond on 3/6/18.
 //  Copyright © 2018 RAA. All rights reserved.
 //
 
 import UIKit
 
-class Notifications: UIViewController {
+class NewNotificationViewController: UIViewController {
 
-    @IBOutlet weak var notificationCell: UITableViewCell!
-    @IBOutlet weak var notificationTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

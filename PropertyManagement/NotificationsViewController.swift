@@ -1,5 +1,5 @@
 //
-//  ContractsViewController.swift
+//  NotificationsViewController.swift
 //  PropertyManagement
 //
 //  Created by Abhinav Tirath on 1/22/18.
@@ -8,9 +8,10 @@
 
 import UIKit
 
-class Contracts: UIViewController {
+class NotificationsViewController: UIViewController {
 
-    @IBOutlet weak var contractsTable: UITableView!
+    @IBOutlet weak var notificationCell: UITableViewCell!
+    @IBOutlet weak var notificationTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

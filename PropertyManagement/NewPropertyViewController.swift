@@ -1,16 +1,15 @@
 //
-//  ExpensesViewController.swift
+//  NewPropertyViewController.swift
 //  PropertyManagement
 //
-//  Created by Abhinav Tirath on 1/22/18.
+//  Created by Alexander Hammond on 3/6/18.
 //  Copyright © 2018 RAA. All rights reserved.
 //
 
 import UIKit
 
-class Expenses: UIViewController {
+class NewPropertyViewController: UIViewController {
 
-    @IBOutlet weak var expensesTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 

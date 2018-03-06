@@ -8,8 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		700E39C82017A5E100643E2C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 700E39C72017A5E100643E2C /* GoogleService-Info.plist */; };
+		701D701E204EDFD00064F196 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D701D204EDFD00064F196 /* Notification.swift */; };
+		701D7020204EDFE60064F196 /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D701F204EDFE60064F196 /* Expense.swift */; };
+		701D7022204EDFF00064F196 /* Contract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D7021204EDFF00064F196 /* Contract.swift */; };
+		701D7024204EE0030064F196 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D7023204EE0030064F196 /* User.swift */; };
+		701D7026204EE08A0064F196 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D7025204EE08A0064F196 /* Property.swift */; };
+		701D7028204EE8750064F196 /* NewExpenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D7027204EE8750064F196 /* NewExpenseViewController.swift */; };
+		701D702A204EE8EB0064F196 /* NewPropertyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D7029204EE8EB0064F196 /* NewPropertyViewController.swift */; };
+		701D702C204EE9050064F196 /* NewNotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D702B204EE9050064F196 /* NewNotificationViewController.swift */; };
+		701D702E204EE91A0064F196 /* UploadContractViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D702D204EE91A0064F196 /* UploadContractViewController.swift */; };
+		701D7032204EEA3B0064F196 /* ViewProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D7031204EEA3B0064F196 /* ViewProperty.swift */; };
+		701D7034204EEA640064F196 /* ViewExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D7033204EEA640064F196 /* ViewExpense.swift */; };
+		701D7036204EEA750064F196 /* ViewNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D7035204EEA750064F196 /* ViewNotification.swift */; };
+		701D7038204EEABD0064F196 /* ViewContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 701D7037204EEABD0064F196 /* ViewContract.swift */; };
 		70B1AAA820083FD100D6EB8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1AAA720083FD100D6EB8A /* AppDelegate.swift */; };
-		70B1AAAA20083FD100D6EB8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1AAA920083FD100D6EB8A /* ViewController.swift */; };
+		70B1AAAA20083FD100D6EB8A /* InitialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B1AAA920083FD100D6EB8A /* InitialViewController.swift */; };
 		70B1AAAD20083FD100D6EB8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B1AAAB20083FD100D6EB8A /* Main.storyboard */; };
 		70B1AAAF20083FD100D6EB8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70B1AAAE20083FD100D6EB8A /* Assets.xcassets */; };
 		70B1AAB220083FD100D6EB8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70B1AAB020083FD100D6EB8A /* LaunchScreen.storyboard */; };
@@ -21,10 +34,10 @@
 		E61B8E062020EE4D00A48EB4 /* ExpensesViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B8E052020EE4D00A48EB4 /* ExpensesViewCell.swift */; };
 		E61B8E082020EE5800A48EB4 /* ContractsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B8E072020EE5800A48EB4 /* ContractsViewCell.swift */; };
 		E61B8E0A2020EE6D00A48EB4 /* SettingsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B8E092020EE6D00A48EB4 /* SettingsViewCell.swift */; };
-		E627F95B2016CAF300B2124A /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F95A2016CAF300B2124A /* Notifications.swift */; };
-		E627F95D2016CB0100B2124A /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F95C2016CB0100B2124A /* Expenses.swift */; };
-		E627F95F2016CB0C00B2124A /* Contracts.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F95E2016CB0C00B2124A /* Contracts.swift */; };
-		E627F9612016CB1300B2124A /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F9602016CB1300B2124A /* Settings.swift */; };
+		E627F95B2016CAF300B2124A /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F95A2016CAF300B2124A /* NotificationsViewController.swift */; };
+		E627F95D2016CB0100B2124A /* ExpensesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F95C2016CB0100B2124A /* ExpensesViewController.swift */; };
+		E627F95F2016CB0C00B2124A /* ContractsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F95E2016CB0C00B2124A /* ContractsViewController.swift */; };
+		E627F9612016CB1300B2124A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E627F9602016CB1300B2124A /* SettingsViewController.swift */; };
 		E6EE1D562011189A00C98B51 /* SignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE1D552011189A00C98B51 /* SignUp.swift */; };
 		E6EE1D5820111A2C00C98B51 /* RenterWithoutProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE1D5720111A2C00C98B51 /* RenterWithoutProperty.swift */; };
 		E6EE1D5A20111B3E00C98B51 /* RenterWithProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EE1D5920111B3E00C98B51 /* RenterWithProperty.swift */; };
@@ -52,9 +65,22 @@
 		13AD210455FD097B5CC00C2B /* Pods-PropertyManagement.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PropertyManagement.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PropertyManagement/Pods-PropertyManagement.debug.xcconfig"; sourceTree = "<group>"; };
 		2F9025E7293424C9361E60A9 /* Pods_PropertyManagementUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PropertyManagementUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		700E39C72017A5E100643E2C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		701D701D204EDFD00064F196 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		701D701F204EDFE60064F196 /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		701D7021204EDFF00064F196 /* Contract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contract.swift; sourceTree = "<group>"; };
+		701D7023204EE0030064F196 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		701D7025204EE08A0064F196 /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		701D7027204EE8750064F196 /* NewExpenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenseViewController.swift; sourceTree = "<group>"; };
+		701D7029204EE8EB0064F196 /* NewPropertyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewPropertyViewController.swift; sourceTree = "<group>"; };
+		701D702B204EE9050064F196 /* NewNotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewNotificationViewController.swift; sourceTree = "<group>"; };
+		701D702D204EE91A0064F196 /* UploadContractViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadContractViewController.swift; sourceTree = "<group>"; };
+		701D7031204EEA3B0064F196 /* ViewProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewProperty.swift; sourceTree = "<group>"; };
+		701D7033204EEA640064F196 /* ViewExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExpense.swift; sourceTree = "<group>"; };
+		701D7035204EEA750064F196 /* ViewNotification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNotification.swift; sourceTree = "<group>"; };
+		701D7037204EEABD0064F196 /* ViewContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewContract.swift; sourceTree = "<group>"; };
 		70B1AAA420083FD100D6EB8A /* PropertyManagement.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PropertyManagement.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70B1AAA720083FD100D6EB8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70B1AAA920083FD100D6EB8A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70B1AAA920083FD100D6EB8A /* InitialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitialViewController.swift; sourceTree = "<group>"; };
 		70B1AAAC20083FD100D6EB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70B1AAAE20083FD100D6EB8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70B1AAB120083FD100D6EB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -71,10 +97,10 @@
 		E61B8E052020EE4D00A48EB4 /* ExpensesViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewCell.swift; sourceTree = "<group>"; };
 		E61B8E072020EE5800A48EB4 /* ContractsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractsViewCell.swift; sourceTree = "<group>"; };
 		E61B8E092020EE6D00A48EB4 /* SettingsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewCell.swift; sourceTree = "<group>"; };
-		E627F95A2016CAF300B2124A /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
-		E627F95C2016CB0100B2124A /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
-		E627F95E2016CB0C00B2124A /* Contracts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contracts.swift; sourceTree = "<group>"; };
-		E627F9602016CB1300B2124A /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		E627F95A2016CAF300B2124A /* NotificationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		E627F95C2016CB0100B2124A /* ExpensesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpensesViewController.swift; sourceTree = "<group>"; };
+		E627F95E2016CB0C00B2124A /* ContractsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContractsViewController.swift; sourceTree = "<group>"; };
+		E627F9602016CB1300B2124A /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		E6EE1D552011189A00C98B51 /* SignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUp.swift; sourceTree = "<group>"; };
 		E6EE1D5720111A2C00C98B51 /* RenterWithoutProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenterWithoutProperty.swift; sourceTree = "<group>"; };
 		E6EE1D5920111B3E00C98B51 /* RenterWithProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenterWithProperty.swift; sourceTree = "<group>"; };
@@ -148,7 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				70B1AAA720083FD100D6EB8A /* AppDelegate.swift */,
-				70B1AAA920083FD100D6EB8A /* ViewController.swift */,
+				70B1AAA920083FD100D6EB8A /* InitialViewController.swift */,
 				E61305D0200842980004CE11 /* Login.swift */,
 				E6EE1D552011189A00C98B51 /* SignUp.swift */,
 				E6EE1D5B20111BE100C98B51 /* ManagerHome.swift */,
@@ -158,12 +184,25 @@
 				E61B8E052020EE4D00A48EB4 /* ExpensesViewCell.swift */,
 				E61B8E072020EE5800A48EB4 /* ContractsViewCell.swift */,
 				E61B8E092020EE6D00A48EB4 /* SettingsViewCell.swift */,
-				E627F95C2016CB0100B2124A /* Expenses.swift */,
 				E61B8E012020EAEE00A48EB4 /* PropertyViewCell.swift */,
 				E61B8E032020EDCC00A48EB4 /* NotificationViewCell.swift */,
-				E627F95E2016CB0C00B2124A /* Contracts.swift */,
-				E627F9602016CB1300B2124A /* Settings.swift */,
-				E627F95A2016CAF300B2124A /* Notifications.swift */,
+				701D7029204EE8EB0064F196 /* NewPropertyViewController.swift */,
+				701D7031204EEA3B0064F196 /* ViewProperty.swift */,
+				E627F95C2016CB0100B2124A /* ExpensesViewController.swift */,
+				701D7027204EE8750064F196 /* NewExpenseViewController.swift */,
+				701D7033204EEA640064F196 /* ViewExpense.swift */,
+				E627F95A2016CAF300B2124A /* NotificationsViewController.swift */,
+				701D702B204EE9050064F196 /* NewNotificationViewController.swift */,
+				701D7035204EEA750064F196 /* ViewNotification.swift */,
+				E627F95E2016CB0C00B2124A /* ContractsViewController.swift */,
+				701D702D204EE91A0064F196 /* UploadContractViewController.swift */,
+				701D7037204EEABD0064F196 /* ViewContract.swift */,
+				E627F9602016CB1300B2124A /* SettingsViewController.swift */,
+				701D701D204EDFD00064F196 /* Notification.swift */,
+				701D701F204EDFE60064F196 /* Expense.swift */,
+				701D7021204EDFF00064F196 /* Contract.swift */,
+				701D7025204EE08A0064F196 /* Property.swift */,
+				701D7023204EE0030064F196 /* User.swift */,
 				70B1AAAE20083FD100D6EB8A /* Assets.xcassets */,
 				70B1AAB020083FD100D6EB8A /* LaunchScreen.storyboard */,
 				700E39C72017A5E100643E2C /* GoogleService-Info.plist */,
@@ -486,22 +525,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				701D7026204EE08A0064F196 /* Property.swift in Sources */,
 				E61305D1200842980004CE11 /* Login.swift in Sources */,
 				E61B8E042020EDCC00A48EB4 /* NotificationViewCell.swift in Sources */,
-				70B1AAAA20083FD100D6EB8A /* ViewController.swift in Sources */,
-				E627F9612016CB1300B2124A /* Settings.swift in Sources */,
+				701D7036204EEA750064F196 /* ViewNotification.swift in Sources */,
+				70B1AAAA20083FD100D6EB8A /* InitialViewController.swift in Sources */,
+				E627F9612016CB1300B2124A /* SettingsViewController.swift in Sources */,
 				E61B8E082020EE5800A48EB4 /* ContractsViewCell.swift in Sources */,
+				701D702C204EE9050064F196 /* NewNotificationViewController.swift in Sources */,
 				E6EE1D562011189A00C98B51 /* SignUp.swift in Sources */,
+				701D7020204EDFE60064F196 /* Expense.swift in Sources */,
 				E6EE1D5C20111BE100C98B51 /* ManagerHome.swift in Sources */,
+				701D7032204EEA3B0064F196 /* ViewProperty.swift in Sources */,
+				701D7024204EE0030064F196 /* User.swift in Sources */,
+				701D7034204EEA640064F196 /* ViewExpense.swift in Sources */,
+				701D7038204EEABD0064F196 /* ViewContract.swift in Sources */,
+				701D7028204EE8750064F196 /* NewExpenseViewController.swift in Sources */,
 				E61B8E022020EAEE00A48EB4 /* PropertyViewCell.swift in Sources */,
 				E6EE1D5820111A2C00C98B51 /* RenterWithoutProperty.swift in Sources */,
+				701D702A204EE8EB0064F196 /* NewPropertyViewController.swift in Sources */,
+				701D702E204EE91A0064F196 /* UploadContractViewController.swift in Sources */,
 				70B1AAA820083FD100D6EB8A /* AppDelegate.swift in Sources */,
 				E61B8E062020EE4D00A48EB4 /* ExpensesViewCell.swift in Sources */,
-				E627F95F2016CB0C00B2124A /* Contracts.swift in Sources */,
+				701D7022204EDFF00064F196 /* Contract.swift in Sources */,
+				E627F95F2016CB0C00B2124A /* ContractsViewController.swift in Sources */,
 				E6EE1D5A20111B3E00C98B51 /* RenterWithProperty.swift in Sources */,
 				E61B8E0A2020EE6D00A48EB4 /* SettingsViewCell.swift in Sources */,
-				E627F95B2016CAF300B2124A /* Notifications.swift in Sources */,
-				E627F95D2016CB0100B2124A /* Expenses.swift in Sources */,
+				E627F95B2016CAF300B2124A /* NotificationsViewController.swift in Sources */,
+				E627F95D2016CB0100B2124A /* ExpensesViewController.swift in Sources */,
+				701D701E204EDFD00064F196 /* Notification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

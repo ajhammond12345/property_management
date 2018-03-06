@@ -1,5 +1,5 @@
 //
-//  SettingsViewController.swift
+//  ExpensesViewController.swift
 //  PropertyManagement
 //
 //  Created by Abhinav Tirath on 1/22/18.
@@ -8,12 +8,11 @@
 
 import UIKit
 
-class Settings: UIViewController {
+class ExpensesViewController: UIViewController {
 
-    @IBOutlet weak var settingsTable: UITableView!
+    @IBOutlet weak var expensesTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
         // Do any additional setup after loading the view.
     }
 
